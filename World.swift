@@ -23,7 +23,14 @@ class World : WorldGenerator {
     
     */
     
-    //Update candies counter
+    
+    /*To Do
+    
+    - Update candies counter
+    - Update slider
+    - Fix isOnCandy()
+    
+    */
     
     override func numberOfColumns() -> Int {
         return 10
@@ -34,6 +41,6 @@ class World : WorldGenerator {
     }
     
     override func generateWorld() {
-        setLevelName("Swag")
+        setLevelName("Welcome to Sparky!")
     }
 }
