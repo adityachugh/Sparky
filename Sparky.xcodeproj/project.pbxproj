@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380C2C871AC7949900727195 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380C2C861AC7949900727195 /* World.swift */; };
+		382691481AC641AA00ED1562 /* SparkyGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382691471AC641AA00ED1562 /* SparkyGridCell.xib */; };
+		3826914C1AC6423D00ED1562 /* SparkyGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826914B1AC6423D00ED1562 /* SparkyGridCell.swift */; };
+		382691541AC70F6D00ED1562 /* Empty Cell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691511AC70F6D00ED1562 /* Empty Cell@3x.png */; };
+		382691551AC70F6D00ED1562 /* Empty Cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691521AC70F6D00ED1562 /* Empty Cell@2x.png */; };
+		382691561AC70F6D00ED1562 /* Empty Cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691531AC70F6D00ED1562 /* Empty Cell.png */; };
+		3826915A1AC7102600ED1562 /* Candy Cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691571AC7102600ED1562 /* Candy Cell@2x.png */; };
+		3826915B1AC7102600ED1562 /* Candy Cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691581AC7102600ED1562 /* Candy Cell.png */; };
+		3826915C1AC7102600ED1562 /* Candy Cell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691591AC7102600ED1562 /* Candy Cell@3x.png */; };
+		382691601AC7178100ED1562 /* SparkyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3826915F1AC7178100ED1562 /* SparkyCell.xib */; };
+		382691621AC717E800ED1562 /* SparkyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382691611AC717E800ED1562 /* SparkyCell.swift */; };
+		382691681AC71DCB00ED1562 /* Sparky Cell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691651AC71DCB00ED1562 /* Sparky Cell@3x.png */; };
+		382691691AC71DCB00ED1562 /* Sparky Cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691661AC71DCB00ED1562 /* Sparky Cell.png */; };
+		3826916A1AC71DCB00ED1562 /* Sparky Cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382691671AC71DCB00ED1562 /* Sparky Cell@2x.png */; };
+		38461DAF1AC73B360006420E /* Sparky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38461DAE1AC73B360006420E /* Sparky.swift */; };
+		38ACC9601AE5F4A600DF2504 /* WorldGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACC95F1AE5F4A600DF2504 /* WorldGenerator.swift */; };
+		38ACC9621AE5F4B800DF2504 /* SparkyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ACC9611AE5F4B800DF2504 /* SparkyViewController.swift */; };
+		38F0FF571AC58DF5008C0CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0FF561AC58DF5008C0CF3 /* AppDelegate.swift */; };
+		38F0FF5C1AC58DF5008C0CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F0FF5A1AC58DF5008C0CF3 /* Main.storyboard */; };
+		38F0FF5E1AC58DF5008C0CF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F0FF5D1AC58DF5008C0CF3 /* Images.xcassets */; };
+		38F0FF611AC58DF5008C0CF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38F0FF5F1AC58DF5008C0CF3 /* LaunchScreen.xib */; };
+		38F0FF6D1AC58DF5008C0CF3 /* SparkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0FF6C1AC58DF5008C0CF3 /* SparkyTests.swift */; };
+		38F0FF791AC5D30F008C0CF3 /* sparkedblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F0FF781AC5D30F008C0CF3 /* sparkedblack.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38F0FF671AC58DF5008C0CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38F0FF491AC58DF5008C0CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F0FF501AC58DF5008C0CF3;
+			remoteInfo = Sparky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		380C2C861AC7949900727195 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		382691471AC641AA00ED1562 /* SparkyGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SparkyGridCell.xib; sourceTree = "<group>"; };
+		3826914B1AC6423D00ED1562 /* SparkyGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkyGridCell.swift; sourceTree = "<group>"; };
+		382691511AC70F6D00ED1562 /* Empty Cell@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empty Cell@3x.png"; sourceTree = "<group>"; };
+		382691521AC70F6D00ED1562 /* Empty Cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empty Cell@2x.png"; sourceTree = "<group>"; };
+		382691531AC70F6D00ED1562 /* Empty Cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Empty Cell.png"; sourceTree = "<group>"; };
+		382691571AC7102600ED1562 /* Candy Cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Candy Cell@2x.png"; sourceTree = "<group>"; };
+		382691581AC7102600ED1562 /* Candy Cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Candy Cell.png"; sourceTree = "<group>"; };
+		382691591AC7102600ED1562 /* Candy Cell@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Candy Cell@3x.png"; sourceTree = "<group>"; };
+		3826915F1AC7178100ED1562 /* SparkyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SparkyCell.xib; sourceTree = "<group>"; };
+		382691611AC717E800ED1562 /* SparkyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkyCell.swift; sourceTree = "<group>"; };
+		382691651AC71DCB00ED1562 /* Sparky Cell@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sparky Cell@3x.png"; sourceTree = "<group>"; };
+		382691661AC71DCB00ED1562 /* Sparky Cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sparky Cell.png"; sourceTree = "<group>"; };
+		382691671AC71DCB00ED1562 /* Sparky Cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sparky Cell@2x.png"; sourceTree = "<group>"; };
+		38461DAE1AC73B360006420E /* Sparky.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sparky.swift; sourceTree = SOURCE_ROOT; };
+		38ACC95F1AE5F4A600DF2504 /* WorldGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldGenerator.swift; sourceTree = "<group>"; };
+		38ACC9611AE5F4B800DF2504 /* SparkyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkyViewController.swift; sourceTree = "<group>"; };
+		38F0FF511AC58DF5008C0CF3 /* Sparky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sparky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F0FF551AC58DF5008C0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F0FF561AC58DF5008C0CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38F0FF5B1AC58DF5008C0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38F0FF5D1AC58DF5008C0CF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38F0FF601AC58DF5008C0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		38F0FF661AC58DF5008C0CF3 /* SparkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F0FF6B1AC58DF5008C0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SparkyTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		38F0FF6C1AC58DF5008C0CF3 /* SparkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkyTests.swift; sourceTree = "<group>"; };
+		38F0FF781AC5D30F008C0CF3 /* sparkedblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkedblack.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38F0FF4E1AC58DF5008C0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F0FF631AC58DF5008C0CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3826915D1AC7102D00ED1562 /* Empty Cell */ = {
+			isa = PBXGroup;
+			children = (
+				382691511AC70F6D00ED1562 /* Empty Cell@3x.png */,
+				382691521AC70F6D00ED1562 /* Empty Cell@2x.png */,
+				382691531AC70F6D00ED1562 /* Empty Cell.png */,
+			);
+			name = "Empty Cell";
+			sourceTree = "<group>";
+		};
+		3826915E1AC7103500ED1562 /* Candy Cell */ = {
+			isa = PBXGroup;
+			children = (
+				382691571AC7102600ED1562 /* Candy Cell@2x.png */,
+				382691581AC7102600ED1562 /* Candy Cell.png */,
+				382691591AC7102600ED1562 /* Candy Cell@3x.png */,
+			);
+			name = "Candy Cell";
+			sourceTree = "<group>";
+		};
+		382691631AC717F100ED1562 /* SparkyGridCell */ = {
+			isa = PBXGroup;
+			children = (
+				382691471AC641AA00ED1562 /* SparkyGridCell.xib */,
+				3826914B1AC6423D00ED1562 /* SparkyGridCell.swift */,
+			);
+			name = SparkyGridCell;
+			sourceTree = "<group>";
+		};
+		382691641AC717FE00ED1562 /* SparkyCell */ = {
+			isa = PBXGroup;
+			children = (
+				3826915F1AC7178100ED1562 /* SparkyCell.xib */,
+				382691611AC717E800ED1562 /* SparkyCell.swift */,
+			);
+			name = SparkyCell;
+			sourceTree = "<group>";
+		};
+		3826916B1AC71DD100ED1562 /* Sparky Cell */ = {
+			isa = PBXGroup;
+			children = (
+				382691651AC71DCB00ED1562 /* Sparky Cell@3x.png */,
+				382691661AC71DCB00ED1562 /* Sparky Cell.png */,
+				382691671AC71DCB00ED1562 /* Sparky Cell@2x.png */,
+			);
+			name = "Sparky Cell";
+			sourceTree = "<group>";
+		};
+		38F0FF481AC58DF5008C0CF3 = {
+			isa = PBXGroup;
+			children = (
+				38461DAE1AC73B360006420E /* Sparky.swift */,
+				380C2C861AC7949900727195 /* World.swift */,
+				38F0FF531AC58DF5008C0CF3 /* Implementation */,
+			);
+			sourceTree = "<group>";
+		};
+		38F0FF521AC58DF5008C0CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38F0FF511AC58DF5008C0CF3 /* Sparky.app */,
+				38F0FF661AC58DF5008C0CF3 /* SparkyTests.xctest */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		38F0FF531AC58DF5008C0CF3 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				38ACC95F1AE5F4A600DF2504 /* WorldGenerator.swift */,
+				38ACC9611AE5F4B800DF2504 /* SparkyViewController.swift */,
+				38F0FF5A1AC58DF5008C0CF3 /* Main.storyboard */,
+				382691631AC717F100ED1562 /* SparkyGridCell */,
+				382691641AC717FE00ED1562 /* SparkyCell */,
+				38F0FF541AC58DF5008C0CF3 /* Supporting Files */,
+			);
+			name = Implementation;
+			path = Sparky;
+			sourceTree = "<group>";
+		};
+		38F0FF541AC58DF5008C0CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F0FF561AC58DF5008C0CF3 /* AppDelegate.swift */,
+				38F0FF5F1AC58DF5008C0CF3 /* LaunchScreen.xib */,
+				3826916B1AC71DD100ED1562 /* Sparky Cell */,
+				3826915D1AC7102D00ED1562 /* Empty Cell */,
+				3826915E1AC7103500ED1562 /* Candy Cell */,
+				38F0FF781AC5D30F008C0CF3 /* sparkedblack.png */,
+				38F0FF5D1AC58DF5008C0CF3 /* Images.xcassets */,
+				38F0FF551AC58DF5008C0CF3 /* Info.plist */,
+				38F0FF521AC58DF5008C0CF3 /* Products */,
+				38F0FF691AC58DF5008C0CF3 /* SparkyTests */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38F0FF691AC58DF5008C0CF3 /* SparkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				38F0FF6C1AC58DF5008C0CF3 /* SparkyTests.swift */,
+				38F0FF6A1AC58DF5008C0CF3 /* Supporting Files */,
+			);
+			path = SparkyTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		38F0FF6A1AC58DF5008C0CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F0FF6B1AC58DF5008C0CF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F0FF501AC58DF5008C0CF3 /* Sparky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F0FF701AC58DF5008C0CF3 /* Build configuration list for PBXNativeTarget "Sparky" */;
+			buildPhases = (
+				38F0FF4D1AC58DF5008C0CF3 /* Sources */,
+				38F0FF4E1AC58DF5008C0CF3 /* Frameworks */,
+				38F0FF4F1AC58DF5008C0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sparky;
+			productName = Sparky;
+			productReference = 38F0FF511AC58DF5008C0CF3 /* Sparky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38F0FF651AC58DF5008C0CF3 /* SparkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F0FF731AC58DF5008C0CF3 /* Build configuration list for PBXNativeTarget "SparkyTests" */;
+			buildPhases = (
+				38F0FF621AC58DF5008C0CF3 /* Sources */,
+				38F0FF631AC58DF5008C0CF3 /* Frameworks */,
+				38F0FF641AC58DF5008C0CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38F0FF681AC58DF5008C0CF3 /* PBXTargetDependency */,
+			);
+			name = SparkyTests;
+			productName = SparkyTests;
+			productReference = 38F0FF661AC58DF5008C0CF3 /* SparkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38F0FF491AC58DF5008C0CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Spark Education";
+				TargetAttributes = {
+					38F0FF501AC58DF5008C0CF3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					38F0FF651AC58DF5008C0CF3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 38F0FF501AC58DF5008C0CF3;
+					};
+				};
+			};
+			buildConfigurationList = 38F0FF4C1AC58DF5008C0CF3 /* Build configuration list for PBXProject "Sparky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38F0FF481AC58DF5008C0CF3;
+			productRefGroup = 38F0FF521AC58DF5008C0CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F0FF501AC58DF5008C0CF3 /* Sparky */,
+				38F0FF651AC58DF5008C0CF3 /* SparkyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38F0FF4F1AC58DF5008C0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382691481AC641AA00ED1562 /* SparkyGridCell.xib in Resources */,
+				38F0FF5C1AC58DF5008C0CF3 /* Main.storyboard in Resources */,
+				382691551AC70F6D00ED1562 /* Empty Cell@2x.png in Resources */,
+				3826915B1AC7102600ED1562 /* Candy Cell.png in Resources */,
+				382691691AC71DCB00ED1562 /* Sparky Cell.png in Resources */,
+				3826916A1AC71DCB00ED1562 /* Sparky Cell@2x.png in Resources */,
+				38F0FF611AC58DF5008C0CF3 /* LaunchScreen.xib in Resources */,
+				38F0FF791AC5D30F008C0CF3 /* sparkedblack.png in Resources */,
+				382691561AC70F6D00ED1562 /* Empty Cell.png in Resources */,
+				38F0FF5E1AC58DF5008C0CF3 /* Images.xcassets in Resources */,
+				382691681AC71DCB00ED1562 /* Sparky Cell@3x.png in Resources */,
+				382691541AC70F6D00ED1562 /* Empty Cell@3x.png in Resources */,
+				3826915C1AC7102600ED1562 /* Candy Cell@3x.png in Resources */,
+				382691601AC7178100ED1562 /* SparkyCell.xib in Resources */,
+				3826915A1AC7102600ED1562 /* Candy Cell@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F0FF641AC58DF5008C0CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38F0FF4D1AC58DF5008C0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38461DAF1AC73B360006420E /* Sparky.swift in Sources */,
+				3826914C1AC6423D00ED1562 /* SparkyGridCell.swift in Sources */,
+				382691621AC717E800ED1562 /* SparkyCell.swift in Sources */,
+				380C2C871AC7949900727195 /* World.swift in Sources */,
+				38ACC9601AE5F4A600DF2504 /* WorldGenerator.swift in Sources */,
+				38ACC9621AE5F4B800DF2504 /* SparkyViewController.swift in Sources */,
+				38F0FF571AC58DF5008C0CF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F0FF621AC58DF5008C0CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F0FF6D1AC58DF5008C0CF3 /* SparkyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38F0FF681AC58DF5008C0CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38F0FF501AC58DF5008C0CF3 /* Sparky */;
+			targetProxy = 38F0FF671AC58DF5008C0CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38F0FF5A1AC58DF5008C0CF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F0FF5B1AC58DF5008C0CF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38F0FF5F1AC58DF5008C0CF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F0FF601AC58DF5008C0CF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38F0FF6E1AC58DF5008C0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38F0FF6F1AC58DF5008C0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38F0FF711AC58DF5008C0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sparky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38F0FF721AC58DF5008C0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sparky/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38F0FF741AC58DF5008C0CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SparkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparky.app/Sparky";
+			};
+			name = Debug;
+		};
+		38F0FF751AC58DF5008C0CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SparkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparky.app/Sparky";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F0FF4C1AC58DF5008C0CF3 /* Build configuration list for PBXProject "Sparky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F0FF6E1AC58DF5008C0CF3 /* Debug */,
+				38F0FF6F1AC58DF5008C0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F0FF701AC58DF5008C0CF3 /* Build configuration list for PBXNativeTarget "Sparky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F0FF711AC58DF5008C0CF3 /* Debug */,
+				38F0FF721AC58DF5008C0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F0FF731AC58DF5008C0CF3 /* Build configuration list for PBXNativeTarget "SparkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F0FF741AC58DF5008C0CF3 /* Debug */,
+				38F0FF751AC58DF5008C0CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38F0FF491AC58DF5008C0CF3 /* Project object */;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SparkyCell" customModule="Sparky" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Oxh-pg-t5M" id="UUZ-BR-mRc"/>
+                <outlet property="view" destination="iN0-l3-epB" id="08U-WV-k99"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sparky Cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oxh-pg-t5M">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Oxh-pg-t5M" secondAttribute="bottom" id="7jK-Bx-duJ"/>
+                <constraint firstItem="Oxh-pg-t5M" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="I8r-1z-uNa"/>
+                <constraint firstAttribute="trailing" secondItem="Oxh-pg-t5M" secondAttribute="trailing" id="W20-dj-wb4"/>
+                <constraint firstItem="Oxh-pg-t5M" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kUF-BN-47b"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="132.5" y="403.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Sparky Cell.png" width="75" height="75"/>
+    </resources>
+</document>

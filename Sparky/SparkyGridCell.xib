@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SparkyGridCell" customModule="Sparky" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="wIh-Qm-Xp0" id="PHt-lB-fZa"/>
+                <outlet property="numberLabel" destination="9RA-lg-i70" id="7k9-St-ewu"/>
+                <outlet property="view" destination="iN0-l3-epB" id="w8S-0q-xJu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Empty Cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="wIh-Qm-Xp0">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-lg-i70">
+                    <rect key="frame" x="12" y="27" width="50" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="CbZ-S4-raI"/>
+                        <constraint firstAttribute="height" constant="21" id="dVk-N9-bxc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wIh-Qm-Xp0" secondAttribute="bottom" id="2OR-GE-8K3"/>
+                <constraint firstAttribute="trailing" secondItem="wIh-Qm-Xp0" secondAttribute="trailing" constant="5" id="IjX-RU-9L0"/>
+                <constraint firstAttribute="trailing" secondItem="wIh-Qm-Xp0" secondAttribute="trailing" id="LFZ-Jp-u6n"/>
+                <constraint firstAttribute="centerX" secondItem="9RA-lg-i70" secondAttribute="centerX" id="O2p-F1-YrS"/>
+                <constraint firstAttribute="centerX" secondItem="wIh-Qm-Xp0" secondAttribute="centerX" id="TjI-8h-ggx"/>
+                <constraint firstItem="wIh-Qm-Xp0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Vse-q7-tfJ"/>
+                <constraint firstAttribute="bottom" secondItem="wIh-Qm-Xp0" secondAttribute="bottom" constant="5" id="bST-cT-0dh"/>
+                <constraint firstAttribute="centerY" secondItem="wIh-Qm-Xp0" secondAttribute="centerY" id="dS6-R9-546"/>
+                <constraint firstAttribute="centerY" secondItem="9RA-lg-i70" secondAttribute="centerY" id="gLD-vX-JEl"/>
+                <constraint firstItem="wIh-Qm-Xp0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="gme-va-NLI"/>
+                <constraint firstItem="wIh-Qm-Xp0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="luE-sd-Pdw"/>
+                <constraint firstItem="wIh-Qm-Xp0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="q6I-S4-omE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="IjX-RU-9L0"/>
+                    <exclude reference="bST-cT-0dh"/>
+                    <exclude reference="gme-va-NLI"/>
+                    <exclude reference="luE-sd-Pdw"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="359.5" y="358.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Empty Cell.png" width="40" height="40"/>
+    </resources>
+</document>
