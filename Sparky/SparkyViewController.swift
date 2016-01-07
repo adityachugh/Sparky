@@ -57,16 +57,16 @@ class SparkyViewController: UIViewController, UIScrollViewDelegate, ErrorHandler
         for var index = 0; index < columns; ++index {
             var array = Array<SparkyGridCell>()
             for var indexj = 0; indexj < rows; ++indexj {
-                var cell = SparkyGridCell()
+                let cell = SparkyGridCell()
                 array.append(cell)
             }
             cells.append(array)
         }
         for var i = 0; i < columns; ++i {
             for var j = 0; j < rows; ++j {
-                var cell = cells[i][j]
-                var x = CGFloat(i*cellDimension)
-                var y = CGFloat(j*cellDimension)
+                let cell = cells[i][j]
+                let x = CGFloat(i*cellDimension)
+                let y = CGFloat(j*cellDimension)
                 cell.errorHandler = self
                 cell.frame = CGRectMake(x, y, CGFloat(cellDimension), CGFloat(cellDimension))
                 cell.coordinate = CGPointMake(CGFloat(i), CGFloat(j))
@@ -93,7 +93,7 @@ class SparkyViewController: UIViewController, UIScrollViewDelegate, ErrorHandler
     
     func errorOccured(description: String) {
         sparky.cancelAnimations()
-        var alert = UIAlertController(title: "Error", message: description, preferredStyle: UIAlertControllerStyle.Alert)
+        let alert = UIAlertController(title: "Error", message: description, preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "Okay", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)
     }

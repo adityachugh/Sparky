@@ -38,6 +38,7 @@ class Sparky : SparkyCell {
         for var i = 0; i < 4; ++i {
             while frontIsClear() {
                 move()
+                putDownCandy()
             }
             turnClockwise()
         }

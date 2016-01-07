@@ -134,8 +134,8 @@ class SparkyCell: UIView {
         }
         animateAction {
             () -> () in
-            var i = Int(self.currentPosition.x)
-            var j = Int(self.currentPosition.y)
+            let i = Int(self.currentPosition.x)
+            let j = Int(self.currentPosition.y)
             self.delayTime(self.currentDelay, closure: {
                 () -> () in
                 self.frame = self.frame
@@ -150,8 +150,8 @@ class SparkyCell: UIView {
         ++candies
         animateAction {
             () -> () in
-            var i = Int(self.currentPosition.x)
-            var j = Int(self.currentPosition.y)
+            let i = Int(self.currentPosition.x)
+            let j = Int(self.currentPosition.y)
             self.delayTime(self.currentDelay, closure: {
                 () -> () in
                 self.frame = self.frame
@@ -253,7 +253,7 @@ class SparkyCell: UIView {
         self.addSubview(view)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         NSBundle.mainBundle().loadNibNamed("SparkyCell", owner: self, options: nil)
         self.addSubview(view)
@@ -262,7 +262,7 @@ class SparkyCell: UIView {
     //Misc Methods
     
     private func animateAction(closure: ()->()) {
-        UIView.animateWithDuration(animationTime, delay: currentDelay, options: nil, animations: closure) {
+        UIView.animateWithDuration(animationTime, delay: currentDelay, options: [], animations: closure) {
             (didFinish) -> Void in
             self.delayTime(self.delay, closure: { () -> () in
                 
